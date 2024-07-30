@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+#home {
+    height: 100vh;
+}
+
+#sidebar-container {
+    width: 300px;
+    height: 100vh;
+}
+
+#mobile {
+    height: 70px;
+}
+
+#contact {
+    height: 100vh;
+}
+
+
+@media (max-width: 768px) {
+    #contact {
+        padding-bottom: 70px;
+    }
+}
+
+
+.iya {
+    border: solid 1px;
+    border-radius: 20px;
+    text-decoration: none;
+    border-color: black;
+    color: black;
+    font-weight: bold;
+    padding: 8px 20px 8px 20px;
+}
+
+.iya:hover {
+    border: solid 1px;
+    border-radius: 20px;
+    text-decoration: none;
+    border-color: black;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-weight: bold;
+    padding: 8px 20px 8px 20px;
+}
+
+.icon {
+    transition: color 0.3s ease;
+    color: black;
+}
+
+.icon:hover {
+    color: red;
+}
+
+.icon:hover::before {
+    content: "\F415";
+    /* Unicode for bi-heart-fill */
+    font-family: "bootstrap-icons";
+}
+
+.bi-heart::before {
+    content: "\F417";
+    /* Unicode for bi-heart */
+}
