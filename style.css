@@ -21,13 +21,11 @@
     height: 100vh;
 }
 
-
 @media (max-width: 768px) {
     #contact {
         padding-bottom: 70px;
     }
 }
-
 
 .iya {
     border: solid 1px;
@@ -61,11 +59,9 @@
 
 .icon:hover::before {
     content: "\F415";
-    /* Unicode for bi-heart-fill */
     font-family: "bootstrap-icons";
 }
 
 .bi-heart::before {
     content: "\F417";
-    /* Unicode for bi-heart */
 }
